@@ -1,5 +1,5 @@
 myenv
-/Users/mtxit/Desktop/self/mlops/vc-emotion-detection/models
+/model/
 reports
 # Byte-compiled / optimized / DLL files
 __pycache__/
