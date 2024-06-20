@@ -60,7 +60,7 @@ def train_model(X_train: np.ndarray, y_train: np.ndarray, params: dict) -> Gradi
         logger.debug('Model training completed')
         return clf
     except Exception as e:
-        logger.error('Error during model training : %s', e)
+        logger.error('Error during model training: %s', e)
         raise
 
 def save_model(model, file_path: str) -> None:
